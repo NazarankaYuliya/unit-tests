@@ -1,23 +1,22 @@
+const { myFilter } = require('./servicemethods');
+
 function filter(array, predicate) {
   if (typeof predicate === 'function') {
-    return array.filter((el) => predicate(el));
+    return myFilter(array, predicate);
   }
 
   if (Array.isArray(predicate)) {
-    const key = predicate[0];
-    const value = predicate[1];
-    return array.filter((el) => {
-      return el[key] === value;
-    });
+    return myFilter(array, (el) => el[predicate[0]] === predicate[1]);
   }
 
   if (typeof predicate === 'object') {
-    return array.filter((el) => {
-      return el.active === predicate.active && el.age === predicate.age;
-    });
+    return myFilter(
+      array,
+      (el) => el.active === predicate.active && el.age === predicate.age,
+    );
   }
   if (typeof predicate === 'string') {
-    return array.filter((el) => el[predicate] === true);
+    return myFilter(array, (el) => el[predicate] === true);
   }
 }
 

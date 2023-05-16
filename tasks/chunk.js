@@ -1,7 +1,9 @@
+const { myPush, mySlice } = require('./servicemethods');
+
 function getchunk(array, size = 1) {
-  const result = [];
+  let result = [];
   for (let i = 0; i < array.length; i += size) {
-    result.push(array.slice(i, i + size));
+    myPush(result, mySlice(array, i, i + size));
   }
 
   return result;

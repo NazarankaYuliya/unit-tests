@@ -1,5 +1,7 @@
+const { myFilter } = require('./servicemethods');
+
 function compact(array) {
-  return array.filter((value) => !!value);
+  return myFilter(array, (value) => !!value);
 }
 
 module.exports = compact;

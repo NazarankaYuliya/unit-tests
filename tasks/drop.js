@@ -1,5 +1,7 @@
+const { mySlice } = require('./servicemethods');
+
 function drop(array, n = 1) {
-  return array.slice(n);
+  return mySlice(array, n);
 }
 
 module.exports = drop;
