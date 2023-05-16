@@ -43,4 +43,12 @@ function myIncludes(input, el, index = 0) {
   }
 }
 
-module.exports = { myFilter, myPush, mySlice, myFind, myIncludes };
+function myForEach(array, calback) {
+  const result = [];
+  for (let i = 0; i < array.length; i++) {
+    myPush(result, calback(array[i]));
+  }
+  return result;
+}
+
+module.exports = { myFilter, myPush, mySlice, myFind, myIncludes, myForEach };
