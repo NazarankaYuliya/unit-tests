@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1684254844003" clover="3.2.0">
-  <project timestamp="1684254844003" name="All files">
-    <metrics statements="81" coveredstatements="81" conditionals="50" coveredconditionals="46" methods="22" coveredmethods="22" elements="153" coveredelements="149" complexity="0" loc="81" ncloc="81" packages="1" files="9" classes="9"/>
+<coverage generated="1684256474891" clover="3.2.0">
+  <project timestamp="1684256474891" name="All files">
+    <metrics statements="92" coveredstatements="92" conditionals="50" coveredconditionals="46" methods="23" coveredmethods="23" elements="165" coveredelements="161" complexity="0" loc="92" ncloc="92" packages="1" files="10" classes="10"/>
     <file name="chunk.js" path="/Users/juliya/unit-tests/tasks/chunk.js">
       <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
@@ -80,7 +80,7 @@
       <line num="4" count="14" type="cond" truecount="2" falsecount="0"/>
       <line num="5" count="7" type="stmt"/>
       <line num="8" count="5" type="stmt"/>
-      <line num="12" count="14" type="stmt"/>
+      <line num="12" count="22" type="stmt"/>
       <line num="16" count="14" type="cond" truecount="4" falsecount="0"/>
       <line num="17" count="5" type="stmt"/>
       <line num="20" count="14" type="stmt"/>
@@ -100,7 +100,7 @@
       <line num="48" count="3" type="stmt"/>
       <line num="49" count="6" type="stmt"/>
       <line num="51" count="3" type="stmt"/>
-      <line num="54" count="8" type="stmt"/>
+      <line num="54" count="9" type="stmt"/>
     </file>
     <file name="take.js" path="/Users/juliya/unit-tests/tasks/take.js">
       <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
@@ -109,6 +109,20 @@
       <line num="5" count="1" type="stmt"/>
       <line num="7" count="3" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
+    </file>
+    <file name="zip.js" path="/Users/juliya/unit-tests/tasks/zip.js">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="6" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
