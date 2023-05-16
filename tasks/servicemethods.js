@@ -34,4 +34,13 @@ function myFind(array, calback) {
   }
 }
 
-module.exports = { myFilter, myPush, mySlice, myFind };
+function myIncludes(input, el, index = 0) {
+  for (let i = index; i < input.length; i++) {
+    if (input[i] === el) {
+      return true;
+    }
+    return false;
+  }
+}
+
+module.exports = { myFilter, myPush, mySlice, myFind, myIncludes };

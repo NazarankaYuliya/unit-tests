@@ -1,5 +1,10 @@
+const { mySlice } = require('./servicemethods');
+
 function take(array, n = 1) {
-  return array.slice(0, n);
+  if (n === 0) {
+    return [];
+  }
+  return mySlice(array, 0, n);
 }
 
 module.exports = take;
