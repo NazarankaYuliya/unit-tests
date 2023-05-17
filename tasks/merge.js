@@ -1,3 +1,5 @@
+const { myPush } = require('./servicemethods');
+
 function merge(object1, object2) {
   for (let key in object1) {
     const result = [];
@@ -7,7 +9,7 @@ function merge(object1, object2) {
         : object2[key].length;
     for (let i = 0; i < len; i++) {
       const resultObj = { ...object1[key][i], ...object2[key][i] };
-      result.push(resultObj);
+      myPush(result, resultObj);
     }
     object1[key] = result;
     return object1;

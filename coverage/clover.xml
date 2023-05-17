@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1684324776330" clover="3.2.0">
-  <project timestamp="1684324776330" name="All files">
-    <metrics statements="114" coveredstatements="114" conditionals="56" coveredconditionals="55" methods="25" coveredmethods="25" elements="195" coveredelements="194" complexity="0" loc="114" ncloc="114" packages="1" files="12" classes="12"/>
+<coverage generated="1684327489280" clover="3.2.0">
+  <project timestamp="1684327489280" name="All files">
+    <metrics statements="130" coveredstatements="130" conditionals="60" coveredconditionals="59" methods="27" coveredmethods="27" elements="217" coveredelements="216" complexity="0" loc="130" ncloc="130" packages="1" files="14" classes="14"/>
     <file name="chunk.js" path="/Users/juliya/unit-tests/tasks/chunk.js">
       <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
@@ -90,16 +90,38 @@
       <line num="13" count="1" type="stmt"/>
     </file>
     <file name="merge.js" path="/Users/juliya/unit-tests/tasks/merge.js">
-      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <line num="2" count="2" type="stmt"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="5" type="stmt"/>
+      <line num="12" count="5" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+    </file>
+    <file name="omit.js" path="/Users/juliya/unit-tests/tasks/omit.js">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
       <line num="8" count="2" type="stmt"/>
-      <line num="9" count="5" type="stmt"/>
-      <line num="10" count="5" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+    </file>
+    <file name="pick.js" path="/Users/juliya/unit-tests/tasks/pick.js">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
     </file>
     <file name="servicemethods.js" path="/Users/juliya/unit-tests/tasks/servicemethods.js">
       <metrics statements="26" coveredstatements="26" conditionals="11" coveredconditionals="11" methods="6" coveredmethods="6"/>
@@ -108,7 +130,7 @@
       <line num="4" count="14" type="cond" truecount="2" falsecount="0"/>
       <line num="5" count="7" type="stmt"/>
       <line num="8" count="5" type="stmt"/>
-      <line num="12" count="22" type="stmt"/>
+      <line num="12" count="27" type="stmt"/>
       <line num="16" count="18" type="cond" truecount="4" falsecount="0"/>
       <line num="17" count="9" type="stmt"/>
       <line num="20" count="18" type="stmt"/>
@@ -120,15 +142,15 @@
       <line num="30" count="4" type="stmt"/>
       <line num="31" count="7" type="cond" truecount="2" falsecount="0"/>
       <line num="32" count="4" type="stmt"/>
-      <line num="38" count="3" type="stmt"/>
-      <line num="39" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="40" count="2" type="stmt"/>
-      <line num="42" count="1" type="stmt"/>
+      <line num="38" count="9" type="stmt"/>
+      <line num="39" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="40" count="6" type="stmt"/>
+      <line num="43" count="3" type="stmt"/>
       <line num="47" count="3" type="stmt"/>
       <line num="48" count="3" type="stmt"/>
       <line num="49" count="6" type="stmt"/>
       <line num="51" count="3" type="stmt"/>
-      <line num="54" count="10" type="stmt"/>
+      <line num="54" count="13" type="stmt"/>
     </file>
     <file name="take.js" path="/Users/juliya/unit-tests/tasks/take.js">
       <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>

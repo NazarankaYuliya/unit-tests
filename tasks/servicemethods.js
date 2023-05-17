@@ -39,8 +39,8 @@ function myIncludes(input, el, index = 0) {
     if (input[i] === el) {
       return true;
     }
-    return false;
   }
+  return false;
 }
 
 function myForEach(array, calback) {
