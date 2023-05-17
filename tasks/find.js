@@ -14,9 +14,7 @@ function find(array, predicate, index) {
       array,
       (el) => el.age === predicate.age && el.active === predicate.active,
     );
-  }
-
-  if (typeof predicate === 'string') {
+  } else {
     return myFind(array, (el) => el[predicate] === true);
   }
 }

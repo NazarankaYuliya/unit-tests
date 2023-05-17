@@ -14,8 +14,7 @@ function filter(array, predicate) {
       array,
       (el) => el.active === predicate.active && el.age === predicate.age,
     );
-  }
-  if (typeof predicate === 'string') {
+  } else {
     return myFilter(array, (el) => el[predicate] === true);
   }
 }
