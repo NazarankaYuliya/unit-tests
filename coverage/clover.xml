@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1684327489280" clover="3.2.0">
-  <project timestamp="1684327489280" name="All files">
-    <metrics statements="130" coveredstatements="130" conditionals="60" coveredconditionals="59" methods="27" coveredmethods="27" elements="217" coveredelements="216" complexity="0" loc="130" ncloc="130" packages="1" files="14" classes="14"/>
+<coverage generated="1684328686711" clover="3.2.0">
+  <project timestamp="1684328686711" name="All files">
+    <metrics statements="142" coveredstatements="142" conditionals="64" coveredconditionals="63" methods="29" coveredmethods="29" elements="235" coveredelements="234" complexity="0" loc="142" ncloc="142" packages="1" files="16" classes="16"/>
     <file name="chunk.js" path="/Users/juliya/unit-tests/tasks/chunk.js">
       <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
@@ -113,6 +113,15 @@
       <line num="13" count="1" type="stmt"/>
       <line num="16" count="1" type="stmt"/>
     </file>
+    <file name="omitBy.js" path="/Users/juliya/unit-tests/tasks/omitBy.js">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
     <file name="pick.js" path="/Users/juliya/unit-tests/tasks/pick.js">
       <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
@@ -122,6 +131,15 @@
       <line num="7" count="2" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="pickBy.js" path="/Users/juliya/unit-tests/tasks/pickBy.js">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
     </file>
     <file name="servicemethods.js" path="/Users/juliya/unit-tests/tasks/servicemethods.js">
       <metrics statements="26" coveredstatements="26" conditionals="11" coveredconditionals="11" methods="6" coveredmethods="6"/>

@@ -1,12 +1,12 @@
 const { myForEach } = require('./servicemethods');
 
-function map(collection, calback) {
-  if (typeof calback === 'string') {
-    return myForEach(collection, (el) => el[calback]);
+function map(collection, callback) {
+  if (typeof callback === 'string') {
+    return myForEach(collection, (el) => el[callback]);
   } else if (Array.isArray(collection)) {
-    return myForEach(collection, calback);
+    return myForEach(collection, callback);
   } else {
-    return myForEach(Object.values(collection), calback);
+    return myForEach(Object.values(collection), callback);
   }
 }
 

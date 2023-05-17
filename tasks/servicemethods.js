@@ -1,7 +1,7 @@
-function myFilter(array, calback) {
+function myFilter(array, callback) {
   let filteredArray = [];
   for (let i = 0; i < array.length; i++) {
-    if (calback(array[i])) {
+    if (callback(array[i])) {
       filteredArray[filteredArray.length] = array[i];
     }
   }
@@ -26,9 +26,9 @@ function mySlice(array, start, end) {
   return result;
 }
 
-function myFind(array, calback) {
+function myFind(array, callback) {
   for (let i = 0; i < array.length; i++) {
-    if (calback(array[i])) {
+    if (callback(array[i])) {
       return array[i];
     }
   }
@@ -43,10 +43,10 @@ function myIncludes(input, el, index = 0) {
   return false;
 }
 
-function myForEach(array, calback) {
+function myForEach(array, callback) {
   const result = [];
   for (let i = 0; i < array.length; i++) {
-    myPush(result, calback(array[i]));
+    myPush(result, callback(array[i]));
   }
   return result;
 }

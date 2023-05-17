@@ -1,31 +1,31 @@
 const { mySlice } = require('./servicemethods');
 
-function dropWhile(array, calback) {
-  if (typeof calback === 'function') {
+function dropWhile(array, callback) {
+  if (typeof callback === 'function') {
     for (let i = 0; i < array.length; i++) {
-      if (!calback(array[i])) {
+      if (!callback(array[i])) {
         return mySlice(array, i);
       }
     }
   }
 
-  if (Array.isArray(calback)) {
+  if (Array.isArray(callback)) {
     for (let i = 0; i < array.length; i++) {
-      if (!(array[i][calback[0]] === calback[1])) {
+      if (!(array[i][callback[0]] === callback[1])) {
         return mySlice(array, i);
       }
     }
   }
 
-  if (typeof calback === 'object') {
+  if (typeof callback === 'object') {
     for (let i = 0; i < array.length; i++) {
-      if (!(array[i].user === calback.user)) {
+      if (!(array[i].user === callback.user)) {
         return mySlice(array, i);
       }
     }
   } else {
     for (let i = 0; i < array.length; i++) {
-      if (!array[i][calback]) {
+      if (!array[i][callback]) {
         return mySlice(array, i);
       }
     }
