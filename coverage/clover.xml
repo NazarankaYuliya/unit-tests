@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1684329813592" clover="3.2.0">
+  <project timestamp="1684329813592" name="All files">
+    <metrics statements="149" coveredstatements="149" conditionals="66" coveredconditionals="65" methods="30" coveredmethods="30" elements="245" coveredelements="244" complexity="0" loc="149" ncloc="149" packages="1" files="17" classes="17"/>
+    <file name="chunk.js" path="/Users/juliya/unit-tests/tasks/chunk.js">
+      <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="6" count="8" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="compact.js" path="/Users/juliya/unit-tests/tasks/compact.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="6" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+    <file name="drop.js" path="/Users/juliya/unit-tests/tasks/drop.js">
+      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+    <file name="dropWhile.js" path="/Users/juliya/unit-tests/tasks/dropWhile.js">
+      <metrics statements="17" coveredstatements="17" conditionals="14" coveredconditionals="13" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="12" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+    </file>
+    <file name="filter.js" path="/Users/juliya/unit-tests/tasks/filter.js">
+      <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+    </file>
+    <file name="find.js" path="/Users/juliya/unit-tests/tasks/find.js">
+      <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+    </file>
+    <file name="includes.js" path="/Users/juliya/unit-tests/tasks/includes.js">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="map.js" path="/Users/juliya/unit-tests/tasks/map.js">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="merge.js" path="/Users/juliya/unit-tests/tasks/merge.js">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="5" type="stmt"/>
+      <line num="12" count="5" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+    </file>
+    <file name="omit.js" path="/Users/juliya/unit-tests/tasks/omit.js">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+    </file>
+    <file name="omitBy.js" path="/Users/juliya/unit-tests/tasks/omitBy.js">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="pick.js" path="/Users/juliya/unit-tests/tasks/pick.js">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="pickBy.js" path="/Users/juliya/unit-tests/tasks/pickBy.js">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+    <file name="servicemethods.js" path="/Users/juliya/unit-tests/tasks/servicemethods.js">
+      <metrics statements="26" coveredstatements="26" conditionals="11" coveredconditionals="11" methods="6" coveredmethods="6"/>
+      <line num="2" count="5" type="stmt"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="4" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="7" type="stmt"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="12" count="29" type="stmt"/>
+      <line num="16" count="18" type="cond" truecount="4" falsecount="0"/>
+      <line num="17" count="9" type="stmt"/>
+      <line num="20" count="18" type="stmt"/>
+      <line num="21" count="18" type="stmt"/>
+      <line num="22" count="18" type="stmt"/>
+      <line num="23" count="31" type="stmt"/>
+      <line num="24" count="31" type="stmt"/>
+      <line num="26" count="18" type="stmt"/>
+      <line num="30" count="4" type="stmt"/>
+      <line num="31" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="32" count="4" type="stmt"/>
+      <line num="38" count="9" type="stmt"/>
+      <line num="39" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="40" count="6" type="stmt"/>
+      <line num="43" count="3" type="stmt"/>
+      <line num="47" count="3" type="stmt"/>
+      <line num="48" count="3" type="stmt"/>
+      <line num="49" count="6" type="stmt"/>
+      <line num="51" count="3" type="stmt"/>
+      <line num="54" count="14" type="stmt"/>
+    </file>
+    <file name="take.js" path="/Users/juliya/unit-tests/tasks/take.js">
+      <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+    </file>
+    <file name="toPairs.js" path="/Users/juliya/unit-tests/tasks/toPairs.js">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="zip.js" path="/Users/juliya/unit-tests/tasks/zip.js">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="6" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
